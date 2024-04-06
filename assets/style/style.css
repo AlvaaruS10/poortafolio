@@ -1,0 +1,55 @@
+
+#Hero-Section {
+  background-image: url("../img/principal.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
+}
+
+h1, h2, h3, h4, h5, p{
+  color:#1d1f20;
+}
+
+#card-foto .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #2c353b;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
+#parrafoPrincipal{
+  color:white; 
+  text-shadow:black 0.1em 0.1em 0.2em;
+}
+
+h2{
+  color: #617d94;
+}
+
+footer {
+  background-color: #22282e;
+}
+
+#footerIcon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
